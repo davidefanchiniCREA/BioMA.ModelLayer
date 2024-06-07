@@ -20,15 +20,15 @@ The package is composed of various namespaces addressing different aspects of mo
 
 Deals with developing components based on the [Design by Contract](https://en.wikipedia.org/wiki/Design_by_contract) paradigm, allowing to implement and test Preconditions and Postconditions in the domain of biophysical modelling.
 
-## [Domain class interface](BioMA.ModelLayer\Core\IDomainClass.cs)
+## [Domain class interface](BioMA.ModelLayer/Core/IDomainClass.cs)
 
 Allows implementation of classes describing the modelling domain, collecting all variables pertaining to a particular phenomenon.
 
-Each variable is described by an associated [VarInfo](BioMA.ModelLayer\Core\IVarInfoClass.cs).
+Each variable is described by an associated [VarInfo](BioMA.ModelLayer/Core/IVarInfoClass.cs).
 
 ## Data
 
-The [DataCollection](BioMA.ModelLayer\Data\DataCollection.cs) class is composed of various [Table](BioMA.ModelLayer\Data\Table.cs), allowing to represent a very general form of model output.
+The [DataCollection](BioMA.ModelLayer/Data/DataCollection.cs) class is composed of various [Table](BioMA.ModelLayer/Data/Table.cs), allowing to represent a very general form of model output.
 
 ## ParametersManagement
 
