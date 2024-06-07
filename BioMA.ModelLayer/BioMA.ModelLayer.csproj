@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyTitle>BioMA.ModelLayer</AssemblyTitle>
+    <Company>CREA</Company>
+    <Product>Model Layer Libraries</Product>
+    <Description>Basic library for the BioMA framework</Description>
+    <Copyright>Copyright © CREA 2014</Copyright>
+    <AssemblyVersion>1.0.6212.29140</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Authors>CREA developers</Authors>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/davidefanchiniCREA/BioMA.ModelLayer</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/davidefanchiniCREA/BioMA.ModelLayer.git</RepositoryUrl>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <DocumentationFile>bin\Debug\net8.0\BioMA.ModelLayer.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </Content>
+    <Content Include="..\docs\**\*.md">
+      <Pack>true</Pack>
+      <PackagePath>..\</PackagePath>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+double;Double;double;;
+double[];ArrayDouble;double[;];new double[10]
+List<double>;ListDouble;List<double>;;new List<double>()
+int;Integer;int;;
+int[];ArrayInteger;int[;];new int[10]
+List<int>;ListInteger;List<int>;;new List<int>()
+DateTime;Date;Date;;new DateTime()
+DateTime[];ArrayDate;Date[;];new DateTime[10]
+List<DateTime>;ListDate;List<DateTime>;;new List<DateTime>()
+string;String;string;;
+string[];ArrayString;string[;];new string[10]
+List<string>;ListString;List<string>;;new List<string>()
+Dictionary<string,string>;DictionaryStringString;Dictionary<string,string>;;new Dictionary<string, string>()
+Dictionary<string,double>;DictionaryStringDouble;Dictionary<string,double>;;new Dictionary<string, double>()
+Dictionary<double,double>;DictionaryDoubleDouble;Dictionary<double,double>;;new Dictionary<double,double>()
+Dictionary<int,double>;DictionaryIntDouble;Dictionary<int,double>;;new Dictionary<int,double>()

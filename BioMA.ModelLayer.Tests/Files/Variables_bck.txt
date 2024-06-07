@@ -1,0 +1,14 @@
+private;double;_WindSpeed;;;;
+private;double[];_WindSpeedHourly;=;new;double;24
+private;double;_WindSpeedMonthlyAverage;;;;
+private;double;_WindSpeedMonthlyStandardDeviation;;;;
+private;double[];_WindSpeedHourlyStandardDeviation;=;new;double;24
+private;double;_DayLength;;;;
+private;double;_WindSpeedMax;;;;
+private;double;_WindSpeedMin;;;;
+private;double;_WindSpeedMaxMonthly;;;;
+private;double;_WindSpeedMinMonthly;;;;
+private;double;_ExtraterrestrialRadiation;;;;
+private;double;_GlobalSolarRadiation;;;;
+public;double[];_SolarElevationHourly;=;new;double;24
+private;double;_HourSunrise;;;;
